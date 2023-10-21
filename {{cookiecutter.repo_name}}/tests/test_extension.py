@@ -1,5 +1,5 @@
-from mopidy_{{ cookiecutter.ext_name }} import Extension
-from mopidy_{{ cookiecutter.ext_name }} import frontend as frontend_lib
+from {{ cookiecutter.__package_name }} import Extension
+from {{ cookiecutter.__package_name }} import frontend as frontend_lib
 
 
 def test_get_default_config():
