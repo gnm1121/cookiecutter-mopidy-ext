@@ -5,6 +5,7 @@
   "dist_name": "Mopidy-Foobar",
   "repo_name": "{{ cookiecutter.dist_name|lower }}",
   "ext_name": "{{ cookiecutter.repo_name|replace('mopidy-', '') }}",
+  "_package_name": "{{ cookiecutter.ext_name|replace('-', '_') }}",
   "short_description": "Mopidy extension for Foobar mechanics",
   "version": "0.1.0"
 }
